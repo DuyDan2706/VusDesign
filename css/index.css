@@ -1,0 +1,173 @@
+/* global */
+*{
+    box-sizing: border-box;
+    /* giúp cho dàn lâyout ko bị rớt hàng nữa */
+}
+
+html,body{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.clear{
+    clear: both;
+}
+h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.line{
+    background-image: url("../img/line.png");
+    height: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* HEADER */
+.header__logoImg{
+    float: left ;
+    margin-right: 0px;
+}
+
+.header__slogan{
+    float: right;
+    margin-right: 120px;
+}
+
+.header__navbar ul{
+    list-style: none;
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header__navbar ul li{
+    display: inline;
+    /* thay đổi tính chất cho nằm trển 1 hàng */
+    /* border-bottom: 2px solid #B31C25; */
+    padding: 0 15px;
+}
+
+.header__navbar ul a{
+    text-decoration: none;
+    /* decoration xóa dường gạch ngang */
+    color: #636363;
+    text-transform: uppercase;
+    /* text transforn uptercase đẻ in hoa cac chữ */
+    font-weight: bold;
+    /* font-weight: bold; đọ đậm của chữ  */
+    font-size: 1vw;
+  
+}
+.header__navbar ul li:hover {
+    border-bottom: 2px solid #B31C25;
+}
+/* .header__navbar ul  .active{
+    border-bottom: 2px solid #B31C25;
+} */
+
+
+/* CAROUSEL  */
+.carousel{
+    background-image: url("../img/slider_1.png");
+    height: 700px;
+     background-size: cover; /*tránh lặp hình */
+     background-position: center;
+     margin-top:20px ;
+}
+
+/* intro  */
+.intro p{
+/* text-align: center; */
+color: #636363;
+}
+
+ /* PROGRAM  */
+ .program_item{
+     float: left;
+     width: 25%;
+     padding: 0 10px;
+ }
+ .program_item img {
+     width: 100%;
+ }
+ /* NEW   */
+ .news{
+     margin-bottom: 20px;
+ }
+.new_text{
+    position: relative;
+
+}
+ .new_left, .new_right{
+     float: left;
+     width: 50%;
+     padding: 5px;
+     /*  */
+ }
+
+.new_text img{
+    width: 100%;
+   display: block;
+   padding: 0 5px;
+}
+.new_text p{
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    color:rgb(231, 224, 224);
+   /* background-color: black; */
+    text-transform: uppercase;
+   width: 100%;
+   padding: 5px 10px;
+   margin: 0;
+}
+.new_left .new_text p{
+    font-size: 20px;
+}
+.new_smail-item{
+    float: left;
+    width: 50%;
+    padding: 0 5px 10px;
+
+
+}
+.new_text hr{
+    margin: 0;
+    height: 5px;
+    background-color: red;
+    margin-top: 3x;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* footer */
+ .footer {
+   background-color:#B31C25;
+   color: white;
+   padding: 10px 10px  ;
+
+ }
+  .footer img {
+      float: left;
+  }
+  .footer p{
+      float: right;
+      width: 50%;
+  }
